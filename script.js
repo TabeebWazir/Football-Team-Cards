@@ -172,5 +172,7 @@ Object.freeze(myFavoriteFootballTeam);
 // myFavoriteFootballTeam.team = "USA";
 // console.log(myFavoriteFootballTeam.team);
 
-const sport = myFavoriteFootballTeam.sport;
-const team = myFavoriteFootballTeam.team;
+// const sport = myFavoriteFootballTeam.sport;
+// const team = myFavoriteFootballTeam.team;
+
+const { sport, team } = myFavoriteFootballTeam;

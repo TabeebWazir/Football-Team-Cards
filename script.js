@@ -182,4 +182,6 @@ teamName.textContent = team;
 worldCupYear.textContent = year;
 headCoach.textContent = coachName;
 
-const setPlayerCards = (arr = players) => {};
+const setPlayerCards = (arr = players) => {
+  playerCards.innerHTML += arr.map(() => {});
+};
